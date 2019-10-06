@@ -1,0 +1,14 @@
+E:\NiceToKnow\C#\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\bin\Debug\CSharpIntermediateConsoleApp.exe.config
+E:\NiceToKnow\C#\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\bin\Debug\CSharpIntermediateConsoleApp.exe
+E:\NiceToKnow\C#\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\bin\Debug\CSharpIntermediateConsoleApp.pdb
+E:\NiceToKnow\C#\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\obj\Debug\CSharpIntermediateConsoleApp.csprojAssemblyReference.cache
+E:\NiceToKnow\C#\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\obj\Debug\CSharpIntermediateConsoleApp.csproj.CoreCompileInputs.cache
+E:\NiceToKnow\C#\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\obj\Debug\CSharpIntermediateConsoleApp.exe
+E:\NiceToKnow\C#\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\obj\Debug\CSharpIntermediateConsoleApp.pdb
+E:\Computer Science\C#\Zip\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\obj\Debug\CSharpIntermediateConsoleApp.csprojResolveAssemblyReference.cache
+E:\Computer Science\C#\Zip\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\obj\Debug\CSharpIntermediateConsoleApp.csproj.CoreCompileInputs.cache
+E:\Computer Science\C#\Zip\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\obj\Debug\CSharpIntermediateConsoleApp.exe
+E:\Computer Science\C#\Zip\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\obj\Debug\CSharpIntermediateConsoleApp.pdb
+E:\Computer Science\C#\Zip\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\bin\Debug\CSharpIntermediateConsoleApp.exe.config
+E:\Computer Science\C#\Zip\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\bin\Debug\CSharpIntermediateConsoleApp.exe
+E:\Computer Science\C#\Zip\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\bin\Debug\CSharpIntermediateConsoleApp.pdb
