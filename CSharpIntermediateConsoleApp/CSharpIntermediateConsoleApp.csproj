@@ -60,11 +60,20 @@
     <Compile Include="Classes\ParameterModifiers.cs" />
     <Compile Include="Classes\Person.cs" />
     <Compile Include="Classes\Point.cs" />
+    <Compile Include="Inheritance\AccessModifiers\Customer.cs" />
+    <Compile Include="Inheritance\AccessModifiers\GoldCustomer.cs" />
+    <Compile Include="Inheritance\CallerClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Amazon\Amazon.csproj">
+      <Project>{59d60ca3-38ab-4c88-80cc-24a2eaef8e33}</Project>
+      <Name>Amazon</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
