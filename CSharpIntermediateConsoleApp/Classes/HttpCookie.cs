@@ -17,7 +17,10 @@ namespace CSharpIntermediateConsoleApp.Classes
         {
             get
             {
-                return _dictionary[key];
+                if(_dictionary.ContainsKey(key))
+                    return _dictionary[key];
+
+                return null;
             }
             set
             {

@@ -100,6 +100,7 @@ namespace CSharpIntermediateConsoleApp.Classes
             var cookie = new HttpCookie();
             cookie["name"] = "Mosh";
             Console.WriteLine(cookie["name"]);
+            Console.WriteLine(cookie["nam"]);
         }
 
         public void ExerciseOne()

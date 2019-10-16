@@ -63,6 +63,27 @@
     <Compile Include="Inheritance\AccessModifiers\Customer.cs" />
     <Compile Include="Inheritance\AccessModifiers\GoldCustomer.cs" />
     <Compile Include="Inheritance\CallerClass.cs" />
+    <Compile Include="Inheritance\Stack.cs" />
+    <Compile Include="Interfaces\CallerClass.cs" />
+    <Compile Include="Interfaces\Order.cs" />
+    <Compile Include="Interfaces\OrderProcessor.cs" />
+    <Compile Include="Interfaces\Shipment.cs" />
+    <Compile Include="Interfaces\ShippingCalculator.cs" />
+    <Compile Include="Polymorphism\Abstract\Circle.cs" />
+    <Compile Include="Polymorphism\Abstract\Rectangle.cs" />
+    <Compile Include="Polymorphism\Abstract\Shape.cs" />
+    <Compile Include="Polymorphism\CallerClass.cs" />
+    <Compile Include="Polymorphism\Exercise\DbCommand.cs" />
+    <Compile Include="Polymorphism\Exercise\DbConnection.cs" />
+    <Compile Include="Polymorphism\Exercise\OracleConnection.cs" />
+    <Compile Include="Polymorphism\Exercise\SqlConnection.cs" />
+    <Compile Include="Polymorphism\Overriding\BadlyStructured\Caller.cs" />
+    <Compile Include="Polymorphism\Overriding\BadlyStructured\Canvas.cs" />
+    <Compile Include="Polymorphism\Overriding\BadlyStructured\Shape.cs" />
+    <Compile Include="Polymorphism\Overriding\BadlyStructured\ShapeType.cs" />
+    <Compile Include="Polymorphism\Overriding\ProperlyStructured\Caller.cs" />
+    <Compile Include="Polymorphism\Overriding\ProperlyStructured\Canvas.cs" />
+    <Compile Include="Polymorphism\Overriding\ProperlyStructured\Shape.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -75,5 +96,6 @@
       <Name>Amazon</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

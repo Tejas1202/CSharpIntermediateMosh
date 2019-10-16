@@ -15,8 +15,10 @@ namespace CSharpIntermediateConsoleApp
         {
             try
             {
-                var caller = new ClassesAssociation.CallerClass();
-                caller.CompositionExample();
+                var caller = new Polymorphism.CallerClass();
+                caller.OverridingExample();
+                caller.AbstractExample();
+                caller.Exercise();
             }
             catch (Exception ex)
             {

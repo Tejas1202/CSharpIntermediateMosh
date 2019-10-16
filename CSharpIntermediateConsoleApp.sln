@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpIntermediateConsoleAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon", "Amazon\Amazon.csproj", "{59D60CA3-38AB-4C88-80CC-24A2EAEF8E33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpIntermediateConsoleApp.UnitTests", "CSharpIntermediateConsoleApp.UnitTests\CSharpIntermediateConsoleApp.UnitTests.csproj", "{56F3E5F8-9A1E-48BF-9549-87C7CA4824AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{59D60CA3-38AB-4C88-80CC-24A2EAEF8E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59D60CA3-38AB-4C88-80CC-24A2EAEF8E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59D60CA3-38AB-4C88-80CC-24A2EAEF8E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F3E5F8-9A1E-48BF-9549-87C7CA4824AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F3E5F8-9A1E-48BF-9549-87C7CA4824AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F3E5F8-9A1E-48BF-9549-87C7CA4824AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F3E5F8-9A1E-48BF-9549-87C7CA4824AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
