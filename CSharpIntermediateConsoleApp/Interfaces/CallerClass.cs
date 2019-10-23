@@ -14,6 +14,8 @@ namespace CSharpIntermediateConsoleApp.Interfaces
             //Main method knows about all concrete types and ties them together
             //The important part is OrderProcessor class doesn't know about ShippingCalculator class (i.e one concrete type doesn't know about other concrete types)
             var orderProcessor = new OrderProcessor(new ShippingCalculator());
+            var order = new Order { TotalPrice = 100f };
+            orderProcessor.Process(order);
         }
     }
 }
