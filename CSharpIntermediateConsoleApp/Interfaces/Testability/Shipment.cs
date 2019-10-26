@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSharpIntermediateConsoleApp.Interfaces
+namespace CSharpIntermediateConsoleApp.Interfaces.Testability
 {
     public class Shipment
     {

@@ -1,4 +1,4 @@
-﻿namespace CSharpIntermediateConsoleApp.Interfaces
+﻿namespace CSharpIntermediateConsoleApp.Interfaces.Testability
 {
     public class Order
     {

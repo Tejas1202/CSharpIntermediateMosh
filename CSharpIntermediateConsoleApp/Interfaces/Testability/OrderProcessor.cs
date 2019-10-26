@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace CSharpIntermediateConsoleApp.Interfaces
+namespace CSharpIntermediateConsoleApp.Interfaces.Testability
 {
     public class OrderProcessor
     {
-        //#region tight coupling
+        //#region tight coupling (because we cannot isolate OrderProcessor class from ShippingCalculator class here)
         //private readonly ShippingCalculator _shippingCalculator;
 
         //public OrderProcessor()
@@ -13,7 +13,7 @@ namespace CSharpIntermediateConsoleApp.Interfaces
         //}
         //#endregion
 
-        #region loose coupling
+        #region loose coupling (hence now, even if we change anything in the ShippingCalculator class, it doesn't change anything here as OrderProcessor doesn't know anything about that class)
         private readonly IShippingCalculator _shippingCalculator;
 
         public OrderProcessor(IShippingCalculator shippingCalculator)

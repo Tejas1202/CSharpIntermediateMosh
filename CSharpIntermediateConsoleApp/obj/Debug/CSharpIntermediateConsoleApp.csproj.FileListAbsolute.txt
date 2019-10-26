@@ -12,3 +12,12 @@ E:\Computer Science\C#\Zip\CSharpIntermediateConsoleApp\CSharpIntermediateConsol
 E:\Computer Science\C#\Zip\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\bin\Debug\CSharpIntermediateConsoleApp.exe.config
 E:\Computer Science\C#\Zip\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\bin\Debug\CSharpIntermediateConsoleApp.exe
 E:\Computer Science\C#\Zip\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\bin\Debug\CSharpIntermediateConsoleApp.pdb
+E:\Computer Science\C#\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\bin\Debug\CSharpIntermediateConsoleApp.exe.config
+E:\Computer Science\C#\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\bin\Debug\CSharpIntermediateConsoleApp.exe
+E:\Computer Science\C#\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\bin\Debug\CSharpIntermediateConsoleApp.pdb
+E:\Computer Science\C#\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\bin\Debug\Amazon.dll
+E:\Computer Science\C#\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\bin\Debug\Amazon.pdb
+E:\Computer Science\C#\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\obj\Debug\CSharpIntermediateConsoleApp.csprojResolveAssemblyReference.cache
+E:\Computer Science\C#\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\obj\Debug\CSharpIntermediateConsoleApp.csproj.CoreCompileInputs.cache
+E:\Computer Science\C#\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\obj\Debug\CSharpIntermediateConsoleApp.exe
+E:\Computer Science\C#\CSharpIntermediateConsoleApp\CSharpIntermediateConsoleApp\obj\Debug\CSharpIntermediateConsoleApp.pdb

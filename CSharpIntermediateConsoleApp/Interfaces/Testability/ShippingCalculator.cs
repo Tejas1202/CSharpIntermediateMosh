@@ -1,10 +1,5 @@
-﻿namespace CSharpIntermediateConsoleApp.Interfaces
+﻿namespace CSharpIntermediateConsoleApp.Interfaces.Testability
 {
-    public interface IShippingCalculator
-    {
-        float CalculateShipping(Order order);
-    }
-
     class ShippingCalculator : IShippingCalculator
     {
         public float CalculateShipping(Order order)

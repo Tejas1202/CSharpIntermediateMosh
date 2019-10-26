@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon", "Amazon\Amazon.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpIntermediateConsoleApp.UnitTests", "CSharpIntermediateConsoleApp.UnitTests\CSharpIntermediateConsoleApp.UnitTests.csproj", "{56F3E5F8-9A1E-48BF-9549-87C7CA4824AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFApp", "WPFApp\WPFApp.csproj", "{F09EE252-C76B-4487-BB3A-4263306A808D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{56F3E5F8-9A1E-48BF-9549-87C7CA4824AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56F3E5F8-9A1E-48BF-9549-87C7CA4824AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56F3E5F8-9A1E-48BF-9549-87C7CA4824AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09EE252-C76B-4487-BB3A-4263306A808D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09EE252-C76B-4487-BB3A-4263306A808D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09EE252-C76B-4487-BB3A-4263306A808D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09EE252-C76B-4487-BB3A-4263306A808D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
