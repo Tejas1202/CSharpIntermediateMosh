@@ -69,6 +69,14 @@
     <Compile Include="Inheritance\ConstructorInheritance\Vehicle.cs" />
     <Compile Include="Inheritance\Stack.cs" />
     <Compile Include="Interfaces\CallerClass.cs" />
+    <Compile Include="Interfaces\Exercise\Activities\CallService.cs" />
+    <Compile Include="Interfaces\Exercise\Activities\SendEmail.cs" />
+    <Compile Include="Interfaces\Exercise\Activities\Status.cs" />
+    <Compile Include="Interfaces\Exercise\Activities\Upload.cs" />
+    <Compile Include="Interfaces\Exercise\IActivity.cs" />
+    <Compile Include="Interfaces\Exercise\MoshSolution\MoshSolution.cs" />
+    <Compile Include="Interfaces\Exercise\WorkFlow.cs" />
+    <Compile Include="Interfaces\Exercise\WorkFlowEngine.cs" />
     <Compile Include="Interfaces\Extensibility\ConsoleLogger.cs" />
     <Compile Include="Interfaces\Extensibility\DbMigrator.cs" />
     <Compile Include="Interfaces\Extensibility\FileLogger.cs" />

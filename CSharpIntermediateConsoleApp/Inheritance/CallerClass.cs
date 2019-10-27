@@ -63,7 +63,7 @@ namespace CSharpIntermediateConsoleApp.Inheritance
             object obj = text;
 
             //But when value type is converted to reference type, it's called boxing
-            object number = 10;
+            object number = 10; //Boxing
             int no = (int)number; //Unboxing
 
             var list = new ArrayList();

@@ -1,6 +1,9 @@
 ﻿using CSharpIntermediateConsoleApp.Interfaces.Extensibility;
 using CSharpIntermediateConsoleApp.Interfaces.Polymorphism;
 using CSharpIntermediateConsoleApp.Interfaces.Testability;
+using CSharpIntermediateConsoleApp.Interfaces.Exercise;
+using CSharpIntermediateConsoleApp.Interfaces.Exercise.Activities;
+using System.Collections.Generic;
 
 namespace CSharpIntermediateConsoleApp.Interfaces
 {
@@ -39,6 +42,20 @@ namespace CSharpIntermediateConsoleApp.Interfaces
             encoder.RegisterNotificationChannel(new MailNotificationChannel());
             encoder.RegisterNotificationChannel(new SmsNotificationChannel());
             encoder.Encode(new Video());
+        }
+
+        public void Exercise()
+        {
+            var workFlowEngine = new WorkFlowEngine();
+            var activitiesList = new List<IActivity>
+            {
+                new Upload(),
+                new CallService(),
+                new SendEmail(),
+                new Status()
+            };
+            var workFlow = new WorkFlow(activitiesList);
+            workFlowEngine.Run(workFlow);
         }
     }
 }

@@ -13,6 +13,9 @@ namespace CSharpIntermediateConsoleApp
                 caller.OverridingExample();
                 caller.AbstractExample();
                 caller.Exercise();
+
+                var interfacesCaller = new Interfaces.CallerClass();
+                interfacesCaller.Exercise();
             }
             catch (Exception ex)
             {

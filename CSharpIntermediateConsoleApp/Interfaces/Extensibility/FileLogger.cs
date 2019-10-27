@@ -10,6 +10,7 @@ namespace CSharpIntermediateConsoleApp.Interfaces.Extensibility
         {
             _path = path;
         }
+
         public void LogError(string message)
         {
             Log(message, "ERROR");
