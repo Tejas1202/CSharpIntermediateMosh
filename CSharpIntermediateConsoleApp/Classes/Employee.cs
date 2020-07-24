@@ -5,6 +5,7 @@ namespace CSharpIntermediateConsoleApp.Classes
     //For demonstrating Encapsulation
     class Employee
     {
+        // Setting BirthDate to private set, hence object can assign this value during initialization only in ctor, not afterwards
         public DateTime BirthDate { get; private set; }
         public long PhoneNumber { get; set; } //a private field and getter/setter methods will automatically be created by C# compiler (which you can see through IL DASM)
 

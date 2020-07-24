@@ -46,15 +46,21 @@ namespace CSharpIntermediateConsoleApp.Inheritance
             list.Add(new Text());
 
             var anotherList = new List<int>(); //Generic list
-            var shapeList = new List<Shape>();
+            var shapeList = new List<Shape>(); // Can add objects of Shape type and even it's derived classes
             #endregion
         }
 
         public void DownCasting()
         {
             Shape shape = new Text(); //Check the type of object in this line in watch window. It'll be of type Text
-            Text text = (Text)shape;
+            // shape.FontSize; // FontSize not accessible eventhough it'll be there in memory
+            Text text = (Text)shape; // Downcasting to make properties of Text class accessible
+            text.FontSize = 10;
             //Here in this way, the text object will now be able to access FontName and FontSize properties
+
+            // Invalid cast exception
+            Shape shape1 = new Shape();
+            Text text1 = (Text)shape1;
         }
 
         public void BoxingUnboxingExample()
@@ -76,7 +82,7 @@ namespace CSharpIntermediateConsoleApp.Inheritance
 
         public void Exercise()
         {
-            var stack = new Stack();
+            var stack = new Exercise.Stack();
             stack.Push(1);
             stack.Push("Mosh");
             stack.Push(DateTime.Now);

@@ -67,7 +67,7 @@
     <Compile Include="Inheritance\Casting\Text.cs" />
     <Compile Include="Inheritance\ConstructorInheritance\Car.cs" />
     <Compile Include="Inheritance\ConstructorInheritance\Vehicle.cs" />
-    <Compile Include="Inheritance\Stack.cs" />
+    <Compile Include="Inheritance\Exercise\Stack.cs" />
     <Compile Include="Interfaces\CallerClass.cs" />
     <Compile Include="Interfaces\Exercise\Activities\CallService.cs" />
     <Compile Include="Interfaces\Exercise\Activities\SendEmail.cs" />

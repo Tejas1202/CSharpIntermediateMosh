@@ -9,6 +9,8 @@ namespace CSharpIntermediateConsoleApp
         {
             try
             {
+                var call = new Inheritance.CallerClass();
+                call.DownCasting();
                 var caller = new Polymorphism.CallerClass();
                 caller.OverridingExample();
                 caller.AbstractExample();

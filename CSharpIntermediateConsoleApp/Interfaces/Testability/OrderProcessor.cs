@@ -18,6 +18,9 @@ namespace CSharpIntermediateConsoleApp.Interfaces.Testability
 
         public OrderProcessor(IShippingCalculator shippingCalculator)
         {
+            // If we do this, then again it becomes a dependency on concrete class ShippingCalculator in OrderProcessor which we wanted to avoid in the first place
+            // hence passing IShippingCalculator as argument which we can assing concrete class during runtime either through Main method or Dependency Injection
+            // _shippingCalculator = new ShippingCalculator();
             _shippingCalculator = shippingCalculator;
         }
         #endregion

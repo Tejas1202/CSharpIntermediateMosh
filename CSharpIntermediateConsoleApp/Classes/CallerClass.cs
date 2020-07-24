@@ -63,7 +63,7 @@ namespace CSharpIntermediateConsoleApp.Classes
             {
                 var point = new Point(10, 20);
                 Console.WriteLine("Point is at ({0},{1})", point.X, point.Y);
-                point.Move(new Point(40, 60)); //So here, first the constructor will be called and X and Y will be reset to their default values, and then the method Move is called
+                point.Move(new Point(40, 60)); //So here, first the constructor will be called and new instance is created having it's own X and Y values, and then the method Move is called
                 Console.WriteLine("Point is at ({0},{1})", point.X, point.Y);
                 point.Move(100, 200);
                 Console.WriteLine("Point is at ({0},{1})", point.X, point.Y);
@@ -106,20 +106,20 @@ namespace CSharpIntermediateConsoleApp.Classes
         public void ExerciseOne()
         {
             bool isContiued = true;
-            var exercise = new Stopwatch();
+            var stopwatch = new Stopwatch();
 
             while (isContiued)
             {
                 Console.WriteLine("Press enter to start time - other key to exit");
                 if(Console.ReadKey().Key == ConsoleKey.Enter)
                 {
-                    exercise.Start();
+                    stopwatch.Start();
                     Console.WriteLine("Press enter to stop time - Escape to exit - Any other key to continue");
                     var readKeyForStop = Console.ReadKey().Key;
                     if(readKeyForStop == ConsoleKey.Enter)
                     {
-                        exercise.Stop();
-                        Console.WriteLine("Total time taken: " + exercise.Duration);
+                        stopwatch.Stop();
+                        Console.WriteLine("Total time taken: " + stopwatch.Duration);
                         Console.WriteLine("===================================================");
                     }
                     else if(readKeyForStop == ConsoleKey.Escape)

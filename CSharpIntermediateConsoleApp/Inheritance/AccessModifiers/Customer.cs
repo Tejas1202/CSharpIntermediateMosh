@@ -2,6 +2,8 @@
 
 namespace CSharpIntermediateConsoleApp.Inheritance.AccessModifiers
 {
+    // Always design your classes as a black box to avoid revealing internal details using Encapsulation
+    // The public interface of this object's class should only have the members it's supposed to reveal
     class Customer
     {
         public int Id { get; set; }

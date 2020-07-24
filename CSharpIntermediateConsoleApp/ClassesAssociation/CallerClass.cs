@@ -10,6 +10,7 @@ namespace CSharpIntermediateConsoleApp.ClassesAssociation
     {
         public void InheritanceExample()
         {
+            // text object having it's own as well inhereted attributes and behaviours
             var text = new Text();
             text.Width = 100;
             text.Copy();
@@ -17,6 +18,7 @@ namespace CSharpIntermediateConsoleApp.ClassesAssociation
 
         public void CompositionExample()
         {
+            // Hence acheiving code re-use of Logger class with Composition
             var dbMigrator = new DbMigrator(new Logger());
 
             var logger = new Logger();

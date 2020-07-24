@@ -21,6 +21,7 @@ namespace CSharpIntermediateConsoleApp.Interfaces.Extensibility
             Log(message, "INFO");
         }
 
+        // Creating private method for not repeating this code above twice (DRY: Don't Repeat Yourself)
         private void Log(string message, string messageType)
         {
             //StreamWriter uses FileResource which is not managed by CLR which means we need to dispose that resource once we're done

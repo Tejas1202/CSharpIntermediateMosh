@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace CSharpIntermediateConsoleApp.Polymorphism.Exercise
 {
+    // DbCommand doesn't care about how a connection is open or closed, it's not the responsibilty of DbCommand, all it cares is to send
+    // an instruction to the database
     class DbCommand
     {
         public DbConnection DbConnection { get; }

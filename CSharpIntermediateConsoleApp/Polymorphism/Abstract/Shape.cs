@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharpIntermediateConsoleApp.Polymorphism.Abstract
 {
+    // Creating Shape class as abstract is also reasonable as creating instance of Shape class has no meaning as it's too abstract concept
+    // Hence defining Shape class abstract to avoid creating instance from it as well as providing some common behaviour like Copy() which can be inherited in derived classes
     abstract class Shape
     {
         public int Width { get; set; }

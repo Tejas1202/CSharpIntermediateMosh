@@ -17,26 +17,30 @@ namespace CSharpIntermediateConsoleApp.Interfaces.Extensibility
             _logger = logger;
         }
 
+        #region with extensibility
         public void Migrate()
         {
-            #region w/o extensibility (now let's say tomorrow we want to use file/database instead of console,
-            //we've to comeback to this method and change it, which means this class has to be recompiled and redeployed
-
-            Console.WriteLine("Migration started at {0}", DateTime.Now);
-
-            //Details of migrating the database
-
-            Console.WriteLine("Migration finished at {0}", DateTime.Now);
-            #endregion
-
-            #region with extensibility
+            
             _logger.LogInfo("Migration started at {0}" + DateTime.Now);
 
             //Details of migrating the database
 
             _logger.LogInfo("Migration finished at {0}" + DateTime.Now);
-            #endregion
-
         }
+        #endregion
+
+        #region
+        // w/o extensibility(now let's say tomorrow we want to use file/database instead of console,
+        // we've to comeback to this method and change it, which means this class has to be recompiled and redeployed
+        // Hence OCP principle isn't followed, our DBMigrator class should be able to change it's behaviour w/o changing it's code
+        //public Migrate()
+        //{
+        //    Console.WriteLine("Migration started at {0}", DateTime.Now);
+
+        //    //Details of migrating the database
+
+        //    Console.WriteLine("Migration finished at {0}", DateTime.Now);
+        //}
+        #endregion
     }
 }

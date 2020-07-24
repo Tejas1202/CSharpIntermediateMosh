@@ -12,7 +12,7 @@ namespace CSharpIntermediateConsoleApp.Polymorphism.Overriding.ProperlyStructure
         {
             var shapes = new List<Shape>
             {
-                new Circle(),
+                new Circle(), // Upcasted implicitly from derived to base class
                 new Rectangle()
             };
 

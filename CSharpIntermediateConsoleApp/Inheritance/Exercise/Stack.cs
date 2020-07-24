@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace CSharpIntermediateConsoleApp.Inheritance
+namespace CSharpIntermediateConsoleApp.Inheritance.Exercise
 {
     //Exercise part
     class Stack
@@ -15,6 +15,7 @@ namespace CSharpIntermediateConsoleApp.Inheritance
 
         public void Push(object obj)
         {
+            // Defensive programming: Our class should always be in a valid state
             if (obj is null)
                 throw new ArgumentException("parameter cannot be null");
 

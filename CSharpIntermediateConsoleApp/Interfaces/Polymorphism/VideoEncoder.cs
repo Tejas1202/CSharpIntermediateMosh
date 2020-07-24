@@ -25,7 +25,6 @@ namespace CSharpIntermediateConsoleApp.Interfaces.Polymorphism
 
         //    _mailService.Send(new Mail());
         //}
-
         #endregion
 
         #region with OCP principle and polymorphism
@@ -42,10 +41,12 @@ namespace CSharpIntermediateConsoleApp.Interfaces.Polymorphism
             //Video encoding logic here
             //....
 
+            // Hence depending upon the type of object passed, it's Send method will be called, hence acheiving OCP through Interface and Polymorphism
             foreach (var channel in _notificationChannels)
                 channel.Send(new Message());
         }
 
+        // As we've kept our _notificationChannels field private for Encapulation, hence exposing a method for adding channels
         public void RegisterNotificationChannel(INotificationChannel channel)
         {
             _notificationChannels.Add(channel);
